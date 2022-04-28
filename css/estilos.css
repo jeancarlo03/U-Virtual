@@ -62,11 +62,19 @@ header {
 .navbar .toggle-menu {
     display: flex;
     justify-content: flex-end;
-    margin-top: -60px;
-    color: white;
+    margin-top: -70px;
+    
 }
 
 .navbar .toggle-menu i{
     font-size: 1.8em;
     cursor: pointer;
+    color: white;
+    display: none;
+}
+
+@media(max-width:570px) {
+    .navbar .toggle-menu i {
+        display: block;
+    }
 }
