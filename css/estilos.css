@@ -82,6 +82,8 @@ header {
     display: none;
     margin: -50px 30px;
 }
+/* cuando intento activar el menu movil encuentro
+no se hace el texto en columna y no se esconde para activar el js*/
 
 @media(max-width:570px) {
     .navbar .toggle-menu i {
@@ -108,8 +110,9 @@ header {
     background-color: #492578;
     position: fixed;
     transform: translateX(-150%);
+    transition: 1s ease-in;
 }
-.menu .menu-on {
+.navbar .menu .menu-on {
     transform: translateX(0%);
 }
 .navbar .menu ul li {
