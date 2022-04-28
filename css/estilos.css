@@ -49,6 +49,7 @@ header {
     list-style: none;
     margin-right: 50px;
     margin-top: 45px;
+    text-transform: uppercase;
 }
 
 .menu ul li a {
@@ -77,4 +78,19 @@ header {
     .navbar .toggle-menu i {
         display: block;
     }
+}
+
+.navbar .menu ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    background-color: #8a5dc9;
+    position: fixed;
+}
+
+.navbar .menu ul li {
+    margin: 30px;
 }
