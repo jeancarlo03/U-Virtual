@@ -109,7 +109,9 @@ header {
     position: fixed;
     transform: translateX(-150%);
 }
-
+.menu .menu-on {
+    transform: translateX(0%);
+}
 .navbar .menu ul li {
     margin: 30px;
    
