@@ -31,11 +31,19 @@ header {
 }
 
 .navbar .brand .logo {
+
     height: 100px;
-    margin: 5px 5px;
+    margin-left: 70%;
     
 }
 
 .menu ul {
     display: flex;
+    color: white;
+    justify-content: left;
+    margin: 0px 30px;
+}
+
+.menu ul li {
+    list-style: none;
 }
