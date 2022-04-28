@@ -17,7 +17,7 @@ header {
     height: 120px;
     background-color: #8a5dc9;
 }
-.header .main {
+/*.header .main {
 
    
 }
@@ -28,21 +28,21 @@ header {
 .navbar .brand {
 
 
-}
+}*/
 
 .navbar .brand .logo {
     display: flex;
     height: 100px;
     margin-left: 80%;
     margin-top: -60px;
-    background-color: aqua;
+    /*background-color: aqua;*/
     
 }
 
 .menu ul {
     display: flex;
     margin: 0px 50px;
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
 }
 
 .menu ul li {
