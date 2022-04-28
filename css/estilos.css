@@ -7,43 +7,61 @@
 }
 
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     
 }
 
 header {
     width: 100%;
+    height: 120px;
     background-color: #8a5dc9;
 }
 .header .main {
-    width: 90%;
-    margin: 0 auto;
+
+   
 }
 .navbar {
-    margin-top: 30px;
+
 }
 
 .navbar .brand {
-    display: flex;
-    margin: 20px 70px;
+
 
 }
 
 .navbar .brand .logo {
-
+    display: flex;
     height: 100px;
-    margin-left: 70%;
+    margin-left: 80%;
+    margin-top: -60px;
+    background-color: aqua;
     
 }
 
 .menu ul {
     display: flex;
-    color: white;
-    justify-content: left;
-    margin: 0px 30px;
+    margin: 0px 50px;
+    background-color: blueviolet;
 }
 
 .menu ul li {
     list-style: none;
+    margin-right: 50px;
+    margin-top: 45px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+    
+}
+
+.navbar .toggle-menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -60px;
+    color: white;
 }
