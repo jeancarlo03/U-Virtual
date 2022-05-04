@@ -1,6 +1,7 @@
-let menu = document.querySelector("#menu")
-let toggleIicon = document.querySelector("#toggle-icon")
+let menu = document.querySelector('#menu');
 
-toggleIicon.addEventListener("click", function(){
-    menu.classList.toggle("menu-on")
-});
+let menu_bar = document.querySelector('#menu-bar');
+
+  menu_bar.addEventListener('click', function () {
+    menu.classList.toggle('menu-toggle'); 
+  })
